@@ -1,0 +1,22 @@
+#top {
+  color: #f7c56f; text-shadow: 2px 2px #fc7b0a;
+  font-family: Optima, sans-serif, arial;
+}
+
+#middle{
+  border: 1px solid Gray;
+  border-collapse: collapse;
+  font-family: Optima, sans-serif, arial;
+  width: 30%;
+  text-align: center;
+}
+
+#bottom{
+table {
+border-collapse: collapse};
+  background-color: #fcf5d2;
+}
+th, td {
+  border: 1px solid Gray; column-width: 30%;
+  padding: 4px;
+}

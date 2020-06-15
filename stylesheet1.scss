@@ -1,0 +1,42 @@
+$color: #f7c56f;
+
+table {
+  border:none;
+  padding: 4px;
+}
+
+#top {
+  padding-bottom: 30px;
+  border:none;
+}
+
+#middle {
+  font-family: Optima, sans-serif, arial;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#bottom {
+  background-color: #fcf5d2;
+  text-align: center;
+}
+
+.name  {
+  font-family: Optima, sans-serif, arial;
+  color: $color; text-shadow: 2px 2px #fc7b0a;
+}
+
+@media (min-width:500px) {
+  h1, th {
+    color: $color;
+  }
+}
+
+@media (max-width:499px) {
+  body {
+    background-color: #f1e3fc;
+  }
+  h1, th {
+    color: #8b48c7;
+  }
+}
